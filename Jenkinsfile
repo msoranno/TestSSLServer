@@ -3,7 +3,7 @@
   @author kuisatahverat
  **/
 env.targetHost = targetHost
-node () {
+node ('master') {
   stage ('Env'){
     sh 'export'
   }
